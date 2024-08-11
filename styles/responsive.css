@@ -14,6 +14,72 @@
     display: flex;
     width: 30px;
   }
+
+  .club{
+    display: none;
+  }
+  
+/* Button Design */
+
+
+
+/* Button Design End */
+
+  .banner-image{
+    width: 100%;
+    height: auto;
+    margin-left: 15%;
+  }
+  .banner-container{
+    margin-top: 96px;
+    display: grid;
+    justify-content: end;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+ 
+.bnr-left-img{
+  position: absolute;
+  top: 180%;
+  left: 10%;
+  
+  height: 74px;
+  width: 145px;
+}
+
+.bnr-right-img{
+   position: absolute;
+   top: 135%;
+   left: 65%;
+   
+  height: 74px;
+  width: 120px;
+}
+.banner-right-img-text h2{
+  font-size: 25px;
+  font-weight: 900;
+}
+.banner-image-text{
+  font-size: 9px;
+}
+
+/* .banner-image-container{
+  justify-content: center;
+} */
+
+.banner-image{
+  justify-content: center;
+}
+
+.banner-image{
+  margin: auto;
+}
+
+
+
+
+
+
 }
 
 
@@ -33,4 +99,58 @@
     width: 358px;
     height: 43px;
    }
+   .list{
+    /* padding: 0 22px; */
+    width: 46px;
+    height: 19px;
+  }
+
+/* Start of Banner Section */
+
+  .banner-container{
+    border: 1px solid gold;
+    margin-top: 96px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  
+  
+.bnr-left-img{
+  position: absolute;
+  top: 230%;
+  left: 10%;
+}
+
+.bnr-right-img{
+   position: absolute;
+   top: 125%;
+   right: 5%;
+}
+
+.banner-right-img-text h2{
+  font-size: 30px;
+  font-weight: 900;
+}
+.banner-image-text{
+  font-size: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
