@@ -210,3 +210,47 @@
 
 
 /* End of Header Container */
+
+
+.habits{
+  text-align: center;
+  margin: 100px 198px;
+}
+.habits h2{
+  font-size: 3rem;
+}
+.habits p{
+  font-size: .875rem;
+  margin: 10px 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.cart-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 58px 0;
+}
+
+.cart-img{
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+.cart-title{
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.cart-descript{
+  font-size: .875rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+
+
+
+
