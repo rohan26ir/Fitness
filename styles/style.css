@@ -247,11 +247,36 @@
   color: rgba(255, 255, 255, 0.5);
 }
 
+.Run{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 100px 190px;
+  justify-content: space-between;
+  background: rgba(34, 34, 34, 1);
+}
 
+.run-right-img{
+  height: 312px;
+  width: 366px;
+  border-radius: 18px;
+  padding: 30px;
+}
+.run-right{
+  right: 100%;
+}
+.run-left{
+  padding: 40px;
+}
 
-
-
-
-
-
+.run-left h2{
+  font-size: 3rem;
+  font-weight: 900;
+}
+.run-left p{
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 14px 0 34px 0;
+  line-height: 25px;
+}
 
