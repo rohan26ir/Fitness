@@ -280,3 +280,99 @@
   line-height: 25px;
 }
 
+/* -------Run------- */
+
+/* ------Trainings and Exercises----- */
+.Trainings{
+  margin: 40px 190px;
+}
+
+.title3m{
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.description{
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 55px;
+}
+
+.image-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.img-grid-size{
+height: 202px;
+}
+
+.img-grid1{
+  /* height: ; */
+  width:  80%;
+  object-fit: cover;
+}
+.img-grid2{
+  height: 214px;
+  width: 160%;
+  object-fit: cover;
+}
+
+.img-grid3{
+  /* height: ; */
+  width:  80%;
+  object-fit: cover;
+}
+
+
+/* -----------Trainings and Exercises--------- */
+
+
+.footer-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: end;
+  margin: 66px 191px;
+  padding: 66px 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+.footer1{
+  justify-self: left;
+}
+.footer1 h2{
+  color: #E6533C;
+  font-size: 70px;
+  font-style: italics;
+  margin-bottom: 20px;
+}
+.footer1 p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-title{
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+.funder-list{
+  list-style: none;
+}
+.flist{
+  font-size: 1.44rem;
+  font-weight: 400;
+  padding: 10px 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer-head{
+  font-style: italic;
+}
+
+.footer-end{
+  /* justify-content: center; */
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.5)
+}
