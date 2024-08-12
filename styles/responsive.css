@@ -40,8 +40,8 @@
  
 .bnr-left-img{
   position: absolute;
-  top: 180%;
-  left: 10%;
+  top: 140%;
+  left: 8%;
   
   height: 74px;
   width: 145px;
@@ -49,7 +49,7 @@
 
 .bnr-right-img{
    position: absolute;
-   top: 135%;
+   top: 100%;
    left: 53%;
    
   height: 74px;
@@ -75,9 +75,25 @@
   margin: auto;
 }
 
+/* Habits Section */
+.habits{
+  text-align: center;
+  margin: 1px 28px;
+}
+.habits h2{
+  font-size: 2rem;
+}
 
+.cart-container{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  /* margin: 58px 0; */
+}
+.cart{
+  margin: 40px auto;
+}
 
-
+/* End of Habits Section */
 
 
 }
@@ -136,6 +152,21 @@
   font-size: 9px;
 }
 
+/* Habits Section */
+
+.habits{
+  text-align: center;
+  margin: 1px 28px;
+}
+.habits h2{
+  font-size: 2rem;
+}
+
+.cart-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
 
 
 
