@@ -327,6 +327,108 @@ height: 202px;
 
 /* -----------Trainings and Exercises--------- */
 
+/* -- -----------BMI Calculator Chart------------- -- */
+
+.calculate-container{
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.calculate-contain{
+  margin: 66px 189px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.bmi-right{
+  margin: 50px;
+}
+.bmi-left{
+  margin-top: 50px;
+}
+
+.calculate-title{
+  font-size: 28px;
+  font-weight: 900;
+}
+.calculate-des{
+  font-size: 14px;
+  font-weight: 400;
+  margin: 14px 0;
+  letter-spacing: .3px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+table, td, th {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 52px;
+}
+table{
+  border-collapse: collapse;
+}
+th{
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: start;
+  color: #FFFFFF;
+  padding: 15px 20px;
+}
+tr{
+  text-align: start;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+td {
+  padding: 18px 17px;
+}
+
+.form-con{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 15px;
+}
+.form-con1{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-bottom: 15px;
+}
+.form-con input,
+.form-con select,
+.form-con1 input,
+.form-con1 select {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 13px 0 13px 20px;
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.btn-c{
+  margin-top: 40px;
+}
+
+/* #activity-factor{
+  color: rgba(255, 255, 255, 0.6);
+  background-color: orangered;
+} */
+
+.activity-factor-1{
+  text-align: start;
+}
+.activity-factor-option{
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+/* -- -----------BMI Calculator Chart------------- -- */
+
+.footer{
+  background: rgba(255, 255, 255, 0.1);
+}
 
 .footer-container{
   display: grid;
@@ -363,7 +465,7 @@ height: 202px;
 .flist{
   font-size: 1.44rem;
   font-weight: 400;
-  padding: 10px 0;
+  padding: 8px 0;
   color: rgba(255, 255, 255, 0.5);
 }
 .footer-head{
