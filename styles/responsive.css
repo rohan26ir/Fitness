@@ -204,7 +204,9 @@
     grid-template-columns: repeat(1, 1fr);
     margin-bottom: 15px;
   }
-
+  .activity-factor-1{
+    padding: 13px 0 13px 20px;
+  }
 
 .form-con-text{
   width: 80%;
