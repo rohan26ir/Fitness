@@ -191,8 +191,19 @@
 
 /* --------Meet Our Team----------- */
 
+.our-team {
+  margin: 66px 20px;
+}
+.meet-our-team h2{
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+}
 
-
+.our-team-container{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
 
 
 
