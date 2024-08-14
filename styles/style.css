@@ -431,6 +431,77 @@ td {
 
 /* -- -----------BMI Calculator Chart------------- -- */
 
+
+
+/* --------Meet Our Team----------- */
+
+.our-team {
+  margin: 88px 190px;
+}
+
+.meet-our-team h2{
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.meet-our-team p{
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 10px;
+  line-height: 24px;
+}
+
+.our-team-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 58px;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 18px;
+}
+
+.team-cart{
+  position: relative;
+  border-radius: 18px;
+  gap: 20px;
+}
+
+.trainer-image{
+  height: 272px;
+  width: 100%;
+  border-radius: 18px;
+  background-image: linear-gradient(140deg, rgba(0, 0, 0, 0.2));
+}
+
+.team-cart h4,
+.team-cart p  {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 20px;
+  right: 20px;
+}
+
+.team-cart h4 {
+  bottom: 40px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.team-cart p {
+  bottom: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* --------Meet Our Team----------- */
+
+
 .footer{
   background: rgba(255, 255, 255, 0.1);
 }
