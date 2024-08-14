@@ -133,6 +133,7 @@
 
   .BMI{
     margin: 30px 20px;
+    border: 1px dashed crimson;
   }
   .BMI h2{
     font-size: 2rem;
