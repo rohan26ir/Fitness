@@ -40,7 +40,7 @@
  
 .bnr-left-img{
   position: absolute;
-  top: 140%;
+  top: 180%;
   left: 8%;
   
   height: 74px;
@@ -49,7 +49,7 @@
 
 .bnr-right-img{
    position: absolute;
-   top: 100%;
+   top: 140%;
    left: 53%;
    
   height: 74px;
@@ -300,7 +300,6 @@
 /* Start of Banner Section */
 
   .banner-container{
-    border: 1px solid gold;
     margin-top: 96px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);

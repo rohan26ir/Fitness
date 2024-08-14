@@ -161,7 +161,7 @@
 
 .bnr-left-img{
   position: absolute;
-  bottom: -30%;
+  bottom: -15%;
   left: 50%;
   display: flex;
   justify-content: center;
@@ -183,10 +183,12 @@
 }
 
 .bnr-right-img{
-  position: absolute;
-  top: 50%;
-  right: 10%;
+  position: relative;
+  /* top: 50%;
+  right: 10%; */
   display:inline-block;
+  bottom: 580px;
+  left: 250px;
   height: 96px;
   width: 206px;
   border-radius: 12px;
@@ -194,6 +196,7 @@
   background: rgba(48, 48, 48, 0.54);
 }
 .banner-right-img-text{
+  position: absolute;
   padding: 20px 20px;
   line-height: 30px;
 }
@@ -215,7 +218,7 @@
 
 .habits{
   text-align: center;
-  margin: 100px 198px;
+  margin: 0 198px;
 }
 .habits h2{
   font-size: 3rem;
