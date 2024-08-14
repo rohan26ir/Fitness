@@ -112,7 +112,54 @@
   font-weight: 900;
 }
 
+/* ------Trainings and Exercises----- */
 
+.Trainings{
+  margin: 66px 20px;
+}
+
+.title3m{
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.image-grid-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.image-grid{
+  position: relative;
+  height: 126px;
+}
+.img-grid{
+  height: 126px;
+  width: 100%;
+}
+
+.hide-image{
+  display: none;
+}
+
+
+#img-g4{
+  visibility: hidden;
+}
+#img-g5{
+  visibility: hidden;
+}
+
+
+#img-g4::after{
+  visibility: visible;
+  content: 'Lorem Ipsum';
+}
+#img-g5::after{
+  visibility: visible;
+  content: 'Lorem Ipsum';
+}
+
+
+
+/* ------Trainings and Exercises----- */
 
 /* ------BMI Calculator----- */
 
