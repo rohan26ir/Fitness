@@ -299,31 +299,70 @@
   margin-bottom: 55px;
 }
 
-.image-grid{
+.image-grid-container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-.img-grid-size{
-height: 202px;
+.image-grid{
+  position: relative;
+  height: 201px;
+  gap: 0;
 }
 
-.img-grid1{
-  /* height: ; */
-  width:  80%;
-  object-fit: cover;
-}
-.img-grid2{
-  height: 214px;
-  width: 160%;
-  object-fit: cover;
+.img-grid{
+  height: 201.5px;
+  width: 100%;
 }
 
-.img-grid3{
-  /* height: ; */
-  width:  80%;
-  object-fit: cover;
+.image-grid p  {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 20px;
+  right: 20px;
 }
+.image-grid p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#img-g1{
+  bottom: 20px;
+}
+#img-g2{
+  top: 20px;
+}
+#img-g3{
+  bottom: 20px;
+}
+#img-g4{
+  top: 20px;
+  text-align: end;
+}
+#img-g5{
+   bottom: 20px;
+}
+#img-g6{
+   bottom: 20px;
+}
+
+
+/* .image-grid-1{
+   
+}
+.image-grid-2{
+}
+.image-grid-3{
+}
+.image-grid-4{
+}
+.image-grid-5{
+}
+.image-grid-6{
+} */
+
+
 
 
 /* -----------Trainings and Exercises--------- */
