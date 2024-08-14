@@ -328,6 +328,15 @@ height: 202px;
 
 /* -----------Trainings and Exercises--------- */
 
+
+.BMI{
+  margin: 88px 384px;
+}
+.BMI h2{
+  font-size: 3rem;
+  font-weight: 900;
+}
+
 /* -- -----------BMI Calculator Chart------------- -- */
 
 .calculate-container{
