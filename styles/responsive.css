@@ -221,7 +221,18 @@
 
 
 /* -- -----------BMI Calculator Chart------------- -- */
+/* --------Our Featured Classes--------- */
+.class-container{
+  margin: 10px 20px;
+}
+.class-contain{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
 
+
+
+/* --------Our Featured Classes--------- */
 /* --------Meet Our Team----------- */
 
 .our-team {

@@ -473,9 +473,59 @@ td {
 }
 
 /* -- -----------BMI Calculator Chart------------- -- */
+/* --------Our Featured Classes--------- */
+.class-container{
+  margin: 80px 190px;
+}
+.class-container h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #900C3F;
+}
+.class-container p{
+  color: #581845;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.class-contain{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.class-card{
+  background-color: #E6533C;
+  padding: 10px;
+  color: crimson;
+  gap: 205px;
+  margin: 10px;
+  border-radius: 25px 0 25px 0;
+  text-align: center;
+}
 
+.class-card-in p{
+}
+.class-img{
+  height: 200px;
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+.class-time{
+  justify-content: center;
+  width: 70%;
+  padding: 8px 20px;
+  color: white;
+  border-radius: 15px 15px 15px 0;
+  border:3px solid #581845 ;
+  background-color: #FF0336;
+}
+.class-time{
+  color: #000000;
+  font-size: 1rem;
+  background-color: white;
+}
 
-
+/* --------Our Featured Classes--------- */
 /* --------Meet Our Team----------- */
 
 .our-team {
