@@ -493,8 +493,8 @@ td {
   grid-template-columns: repeat(3, 1fr);
 }
 .class-card{
-  background-color: #E6533C;
-  padding: 10px;
+  background: rgba(48, 48, 48, 0.54); 
+  padding: 5px 10px;
   color: crimson;
   gap: 205px;
   margin: 10px;
