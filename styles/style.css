@@ -43,6 +43,7 @@
 
 
 
+
 .btn{
   background-color: #E6533C;
   color: white;
@@ -409,11 +410,6 @@ td {
 .btn-c{
   margin-top: 40px;
 }
-
-/* #activity-factor{
-  color: rgba(255, 255, 255, 0.6);
-  background-color: orangered;
-} */
 
 .activity-factor-1{
   text-align: start;
