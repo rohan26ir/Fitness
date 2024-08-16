@@ -351,22 +351,6 @@
 }
 
 
-/* .image-grid-1{
-   
-}
-.image-grid-2{
-}
-.image-grid-3{
-}
-.image-grid-4{
-}
-.image-grid-5{
-}
-.image-grid-6{
-} */
-
-
-
 
 /* -----------Trainings and Exercises--------- */
 
@@ -480,10 +464,10 @@ td {
 .class-container h2{
     font-size: 3rem;
     font-weight: 900;
-    color: #900C3F;
+    color: #FFFFFF;
 }
 .class-container p{
-  color: #581845;
+  color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 40px;
@@ -515,13 +499,13 @@ td {
   padding: 8px 20px;
   color: white;
   border-radius: 15px 15px 15px 0;
-  border:3px solid #581845 ;
+  border:3px solid black;
   background-color: #FF0336;
 }
 .class-time{
   color: #000000;
   font-size: 1rem;
-  background-color: white;
+  background-color: chocolate;
 }
 
 /* --------Our Featured Classes--------- */
