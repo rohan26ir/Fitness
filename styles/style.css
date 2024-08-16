@@ -174,10 +174,17 @@
   height: 40px;
   width: 40px;
   border-radius: 50%;
+
+  justify-content: center;
+  align-items: center;
 }
 .banner-left-img-text{
   padding: 10px;
 }
+
+
+
+
 
 .bnr-right-img{
   position: relative;
@@ -510,7 +517,10 @@ td {
   width: 70%;
   font-size: 1.5rem;
   background-color: black;
+  transition: all 3s ease-in;
 }
+
+
 
 /* --------Our Featured Classes--------- */
 /* --------Meet Our Team----------- */
